@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/favourite"
+            android:icon="@drawable/favourite"
+            android:title="Favourite/དགའ་ཤོས།"
+            />
+        <item
+            android:id="@+id/history"
+            android:icon="@drawable/history"
+            android:title="History/བྱུང་རབས།" />
+        <item
+            android:id="@+id/day"
+            android:icon="@drawable/wordoftheday"
+            android:title="Word of the day/ད་རིས་ཀྱིས་ཚིག།" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Setting/རིམ་སྒྲིག།" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="Help/གྲོགས་རམ།" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share/སྤེལ།" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/rate"
+            android:title="Rate/སྐུགས་བྱིན།" />
+
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback/བསམ་འཆར།" />
+            <item
+                android:id="@+id/abbreviations"
+                android:icon="@drawable/abbre"
+                android:title="abbreviations/བསྡུ་ཡིག།" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About App/རིམ་ལུགས་ཀྱི་སྐོར།" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exit"
+            android:title="Exit/སྡམས།" />
+
+    </group>
+
+
+</menu>
